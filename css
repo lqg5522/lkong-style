@@ -1,0 +1,201 @@
+# lkong-style
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("http://lkong.cn/")
+{
+  body
+  {
+    background: url(
+	'/*[[url]]*/'
+)no-repeat fixed center;
+  }
+
+  .lkongheader
+  {
+    /*顶部横条*/
+    background: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(255, 255, 255, .2) !important;
+  }
+
+  .new-feed-bar,
+.onefeed:hover,
+.lkong_feed .hover,
+.module .modulecon,
+.layer_message_box
+  {
+    /*板块列表背景，新消息提示框*/
+    background-color: #f0f0f033;
+    color: #ff0000c9;
+  }
+
+  .new-feed-bar
+  {
+    /*新信息提醒字体*/
+    text-shadow: -0 -0 0.2em #ff887721;
+  }
+
+  .forum_blackboard
+  {
+    /*公告栏*/
+    background: #eee0;
+  }
+
+  .post
+  {
+    /*版面说明*/
+    background: #f5f5f500;
+  }
+
+  .lkongfeed
+  {
+    /*帖子列表*/
+    background: #ffffff61;
+    border-right: 0px solid #EEE;
+  }
+
+  .th_rp_num
+  {
+    /*帖子回帖数量*/
+    background: url(chrome://666.png);
+  }
+
+  .nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus
+  {
+    /*激活的标签卡*/
+    background-color: #ffffff08;
+    border: 1px solid #dddddd05;
+    border-bottom-color: transparent;
+  }
+
+  .pane_content
+  {
+    /*详细内容页面*/
+    background: #fff;
+  }
+
+  .pane .pane_title
+  {
+    /*详细内容标题*/
+    background: #d1d1d1;
+  }
+
+  .postlist .user
+  {
+    /*全屏页面*/
+    background-color: #f9f9f900;
+  }
+
+  .search-form #search-query
+  {
+    /*搜索栏*/
+    -webkit-border-radius: 0px;
+    background-color: #f9f9f900;
+  }
+
+  .forumrightbtn a
+  {
+    /*发表帖子和关注*/
+    font-size: 13px;
+  }
+
+  .forum_blackboard .title
+  {
+    /*公告分隔条*/
+    border-bottom: 3px solid #0070EE;
+  }
+
+  .module
+  {
+    /*导航栏*/
+    text-shadow: 0 0 0.2em #c2c2c2;
+    border: 1px solid #EEE;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: url(chrome://666.png);
+  }
+
+  .tl .album,
+.tl .album img
+  {
+    /*个人主页顶部*/
+    visibility: hidden;
+  }
+
+  .tl .users .name
+  {
+    /*个人主页标题栏*/
+    background-color: #f5f5f56b;
+  }
+
+  .tl .users .btn
+  {
+    /*多余按钮*/
+    display: none;
+  }
+
+  .postlist .message
+  {
+    /*设置面板*/
+    background: #ffffff3b;
+  }
+
+  .sidenav li
+  {
+    /*设置面板导航*/
+    background-color: #fff0;
+  }
+
+  .sidenav li.select
+  {
+    /*设置面板高亮*/
+    background-color: transparent;
+    text-shadow: 0 0 0.2em #f87, -0 -0 0.2em #f87;
+  }
+
+  .newbg
+  {
+    /*设置面板背景*/
+    border: 0px solid #EEE;
+  }
+
+  .sideCustom .detail .punch
+  {
+	/*签到栏背景*/
+    width: 90px;
+    height: 50px;
+    border-radius: 3px;
+  }
+
+  .addfollow
+  {
+	/*功能按钮圆角*/
+    border-radius: 3px;
+  }
+
+  .isfollow
+  {
+	/*版面关注栏*/
+    border-radius: 3px;
+    background-color: #ddddddb3;
+  }
+
+  .search-form-glass
+  {
+	/*搜索按钮*/
+    right: 5px;
+  }
+
+  .search-form
+  {
+    /*搜索栏*/
+    margin: 5px 0 3px 0;
+  }
+
+  div,
+p,
+li
+  {
+    font-family: "Microsoft Yahei";
+  }
+}
